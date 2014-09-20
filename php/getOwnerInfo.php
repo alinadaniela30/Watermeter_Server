@@ -6,7 +6,7 @@
 	$dataObj  = json_decode($_POST['dataObj'], true);
 	
 		// creare conexiune la mysqli server + db
-		$connex=mysqli_connect("localhost","root","","watermeter");
+		$connex=mysqli_connect("localhost","root","MocanA78","watermeter");
 		
 		// verifica conexiune
 		if(mysqli_connect_errno()) {
